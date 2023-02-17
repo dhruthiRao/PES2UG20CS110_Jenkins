@@ -3,7 +3,7 @@ pipeline {
 	    stages {
 	        stage('Build')    {
 	            steps {
-	                sh 'g++ hello.cpp -o execute'
+	                sh 'g++ helloworld.cpp -o execute'
 	                echo 'Build Successful'
 	            }
 	        }
